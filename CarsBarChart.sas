@@ -5,3 +5,4 @@ proc sgpanel data=sashelp.cars(where=(type in ('Sedan' 'Sports'))) noautolegend;
   vbar origin / response=mpg_city stat=mean group=origin;
   rowaxis grid;
   run;
+*comment;
