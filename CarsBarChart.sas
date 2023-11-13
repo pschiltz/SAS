@@ -6,3 +6,4 @@ proc sgpanel data=sashelp.cars(where=(type in ('Sedan' 'Sports'))) noautolegend;
   rowaxis grid;
   run;
 *comment;
+  *new comment;
